@@ -1,6 +1,6 @@
 # For more details on app.yaml, see: https://aka.ms/coral/appyaml
 
-template: external-service
+template: istio-service
 deployments:
   development:
     target: development
