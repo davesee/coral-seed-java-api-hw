@@ -1,10 +1,8 @@
-# For more details on app.yaml, see: https://aka.ms/coral/appyaml
-
 template: istio-service
 deployments:
-  development:
-    target: development
+  dev:
+    target: dev
     clusters: 1
     values:
-      image: <registryhost>/<owner>/<repository>:main
+      image: ghcr.io/erikschlegel/coral-seed-java-api-hw:main
       port: 5000
