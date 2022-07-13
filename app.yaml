@@ -4,5 +4,5 @@ deployments:
     target: dev
     clusters: 1
     values:
-      image: ghcr.io/erikschlegel/coral-seed-java-api-hw:main
+      image: <registryhost>/<owner>/<repository>
       port: 5000
