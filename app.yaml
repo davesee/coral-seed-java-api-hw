@@ -4,7 +4,7 @@ deployments:
     target: dev
     clusters: 1
     values:
-      image: <registryhost>/<owner>/<repository>
+      image: ghcr.io/davesee/coral-seed-java-api-hw:main
       fqdn: newapp.contoso.com
       port: 5000
       replicas: 2
